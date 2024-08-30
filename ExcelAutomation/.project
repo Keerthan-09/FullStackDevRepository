@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Lib1</name>
+			<type>2</type>
+			<location>C:/GitDevRepository/CurrentWorkSpace/ExcelAutomation/Library</location>
+		</link>
+	</linkedResources>
 </projectDescription>

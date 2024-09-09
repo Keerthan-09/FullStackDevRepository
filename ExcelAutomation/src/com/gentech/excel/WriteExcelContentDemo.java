@@ -24,7 +24,7 @@ public class WriteExcelContentDemo {
 		try
 		{
 			wb=new XSSFWorkbook();
-			sh=wb.createSheet("Information");
+			sh=wb.createSheet("Mubina");
 			//1st Row of Data
 			row=sh.createRow(0);
 			cell=row.createCell(0);
@@ -38,7 +38,7 @@ public class WriteExcelContentDemo {
 			cell=row.createCell(1);
 			cell.setCellValue("Welcome12345");
 			
-			fout=new FileOutputStream("C:\\EXCEL\\Test2.xlsx");
+			fout=new FileOutputStream("C:\\EXCEL\\Madumitha.xlsx");
 			wb.write(fout);
 		}catch (Exception e) 
 		{
